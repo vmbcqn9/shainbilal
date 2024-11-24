@@ -40,7 +40,7 @@ const LandingPage = () => {
   return (
     <div className="page-container">
       <header className="header1">
-        <img src="/pokelogo.png" alt="Logo" />
+        <img src="pokelogo.png" alt="Logo" />
       </header>
 
       <div className="header">
