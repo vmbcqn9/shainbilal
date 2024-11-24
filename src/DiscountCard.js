@@ -14,7 +14,7 @@ const DiscountCard = ({ updateDiscount }) => {
   const [shuffledReviews, setShuffledReviews] = useState([]);  // For shuffling reviews
   const [isLocked, setIsLocked] = useState(false); // For locking the card
 
-  const googleReviewLink = "https://reviewthis.biz/autoexpress";
+  const googleReviewLink = "";
 
   const preWrittenReviews = [
     "Nourriture excellente et service incroyable ! Je recommande vivement cet endroit.",
