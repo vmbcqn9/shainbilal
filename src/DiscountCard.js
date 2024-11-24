@@ -126,7 +126,7 @@ const DiscountCard = ({ updateDiscount }) => {
       <div className="discount-card" onClick={handleCardClick}>
         <div className="card-content">
           <div className="text-content">
-            <img src='/search.png' alt='Search Icon' className='icon' />
+            <img src='search.png' alt='Search Icon' className='icon' />
             <div className="text-details">
               <h3 className="title">Avis Google</h3>
               <p className="description">Donnez un avis et 5 étoiles</p>
