@@ -2,7 +2,7 @@
   "name": "your-app-name",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://github.com/vmbcqn9/shainbilal.git",  
+  "homepage": "https://vmbcqn9.github.io/shainbilal",
   "dependencies": {
     "react": "^17.0.0",  
     "react-dom": "^17.0.0",  
