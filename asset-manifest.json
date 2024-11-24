@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/shainbilal/static/css/main.7836459b.css",
-    "main.js": "/shainbilal/static/js/main.466b7105.js",
+    "main.js": "/shainbilal/static/js/main.179a12b5.js",
     "static/js/453.cfc8ca46.chunk.js": "/shainbilal/static/js/453.cfc8ca46.chunk.js",
     "index.html": "/shainbilal/index.html",
     "main.7836459b.css.map": "/shainbilal/static/css/main.7836459b.css.map",
-    "main.466b7105.js.map": "/shainbilal/static/js/main.466b7105.js.map",
+    "main.179a12b5.js.map": "/shainbilal/static/js/main.179a12b5.js.map",
     "453.cfc8ca46.chunk.js.map": "/shainbilal/static/js/453.cfc8ca46.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7836459b.css",
-    "static/js/main.466b7105.js"
+    "static/js/main.179a12b5.js"
   ]
 }
