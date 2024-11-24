@@ -125,7 +125,7 @@ const DiscountCard2 = ({ updateDiscount2 }) => {
       <div className="discount-card" onClick={() => !isCardLocked && setIsModalOpen(true)}>
         <div className="card-content">
           <div className="text-content">
-            <img src="/instagram(1).png" alt="Instagram Icon" className="icon" />
+            <img src="instagram(1).png" alt="Instagram Icon" className="icon" />
             <div className="text-details">
               <h3 className="title">Partager sur Instagram</h3>
               <p className="description">Partagez votre expérience</p>
