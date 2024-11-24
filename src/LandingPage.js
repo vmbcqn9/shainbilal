@@ -58,6 +58,7 @@ const LandingPage = () => {
       <DiscountCard updateDiscount={updateDiscountFromCard1} />
       <DiscountCard2 updateDiscount2={updateDiscountFromCard2} />
 
+      <div className="dis4"><p></p></div>
 
     </div>
   );
