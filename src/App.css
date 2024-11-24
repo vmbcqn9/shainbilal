@@ -1,38 +1,121 @@
-.App {
+/* Container styling */
+.page-container {
+  margin: 0 auto;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  font-family: Arial, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  overflow-x:hidden;
 }
 
-.App-link {
-  color: #61dafb;
+/* Title styling */
+.title h1 {
+  color: #2D3748;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.header1 {
+  background-color: #ffffff;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width:100%;
+  padding: 3.5rem;
+   
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.header1 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 180px;
+  height: auto;
+  padding-top: 2.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+/* Header styling */
+.header {
+  background-color: #1e3555;
+  color: #FFFFFF;
+  width:100%;
+  font-family: Quicksand,sans-serif;
+}
+
+.header h1{
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  padding-top: 0.5rem;
+}
+
+.header p{
+  font-size: 1.rem;
+  line-height: 1rem;
+  padding-bottom: 0.5rem;
+  
+}
+
+/* Card styling */
+.card {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 1rem 0;
+  padding: 1.5rem;
+  text-align: center;
+  font-family: Quicksand,sans-serif;
+  max-width: 476px;
+  width : 19rem;
+  min-height: 152px;
+}
+
+.card h2{
+  color: #1e3555;
+  
+}
+.card p{
+  color:rgb(107,114,128)
+}
+/* Button styling */
+.button {
+  
+  color: #FFFFFF;
+  padding: 0.75rem 1.5rem;
+  font-weight: 700;
+  font-size: 1rem;
+ font-family: Quicksand,sans-serif;
+  margin-top: 1rem;
+}
+
+.button:disabled {
+  background-color: #E0E0E0;
+  cursor: not-allowed;
+}
+
+/* Discount and link text */
+.discount-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e06262;
+}
+
+.bar {
+  height: 0.75rem;
+  background-color: rgb(243 244 246);
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%; /* Takes up the full height of the .bar */
+  background: linear-gradient(to right, #1e3555, #FF3B3B);
+  border-radius: 9999px;
+  transition: width 0.3s ease-in-out; /* Smooth transition */
+}
+
+.dis4{
+  margin-bottom: 4rem;
 }

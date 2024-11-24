@@ -1,0 +1,384 @@
+.discount-card {
+    width: 22rem; 
+    min-height: 152px;
+    border-radius: .75rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  border-color: #e5e7eb;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column; /* Stack the content vertically */
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+    margin-top: 1.5rem;
+  }
+  
+  .card-content {
+    display: flex;
+    flex-direction: column; /* Stack icon, text, and discount vertically */
+    justify-content: space-between; /* Space between items */
+    padding: 1.5rem;
+    
+   
+  }
+
+  .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .75rem; /* Adjust padding as needed */
+    background-color: #0000ff1a; /* Slight blue background */
+    border-radius: 50%; /* Apply border-radius to the background */
+    position: relative;
+  }
+  
+
+  
+  
+
+  
+  .text-details {
+    display: flex;
+    flex-direction: column; /* Stack title and description vertically */
+    align-items: flex-start; /* Align items to the left */
+    
+  }
+  
+
+  
+  .description {
+    color: #555;
+    font-size: 0.9em;
+    margin-top: 0; /* Remove margin top to align directly under the title */
+    padding-left: 0; /* Ensure no extra indentation */
+  }
+  .discount-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align items to the left */
+    margin-top: 10px; /* Space between description and discount section */
+  }
+  
+  .discount {
+    color: #e06262;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    margin: 0;
+    margin-right: 10px; /* Space between discount text and button */
+  }
+  
+  .discount-section button {
+    background-color: #e06262;
+    border: none;
+    border-radius: 10px;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    padding-left: 1rem;
+  padding-right: 1rem;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    
+  }
+  
+  .button:hover {
+    background-color: #d32f2f;
+  }
+  
+  
+  .text-content {
+    display: flex; /* Use flexbox for horizontal layout */
+    align-items: flex-start; /* Align items at the top */
+    gap: 1rem;
+  }
+  
+
+  
+  .title {
+    color: #1e3555;
+    font-size: 1.125rem;
+  line-height: 1.75rem;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Darker background with opacity */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure the modal is on top */
+  }
+  
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+    max-height: 60vh; /* Prevent content overflow */
+    overflow-y: auto;
+    position: relative;
+  }
+  
+  
+  .back-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .back-button:hover {
+    color: #f00; /* Change color on hover if you like */
+  }
+  
+  
+  .modal-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: #1e3555;
+  }
+  
+  .review-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .review-item {
+    margin-bottom: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 8px;
+    padding: 0.5rem;
+  }
+  
+  .copy-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    color: grey;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: white;
+  }
+  
+
+.proceed-button{
+  background-color: #1e3555;
+  color: white;
+  border-radius: 8px;
+  padding: 8px;
+  border: none;
+  margin-left:2em
+}
+  
+
+
+.option-button{
+  margin-bottom: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 8px;
+    padding: 0.5rem;
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    color: #1e3555;
+    font-size: 1em;
+    font-weight: 600;
+  }
+  .option-button-eff{
+    margin-bottom: 15px;
+      border: 1px solid rgba(128, 128, 128, 0.5);
+      border-radius: 8px;
+      padding: 0.5rem;
+      background-color: white;
+      font-family: 'Quicksand', sans-serif;
+      color: #33ff00;
+      font-size: 1em;
+      font-weight: 600;
+    }
+  .modal-content2 {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+    height: auto;
+    position: relative; /* Required for absolute positioning of the back button */
+  }
+  
+.reduction-option{
+  color:#e06262 ;
+  font-weight: 700;
+}
+
+.actions2{
+  display:flex;
+  flex-direction: column;
+}
+
+
+/* The dark background that covers everything */
+.overlay {
+  position: fixed; /* Covers the whole screen */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Slightly dark with transparency */
+  display: flex; /* Makes centering easier */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  z-index: 999; /* Makes sure it's on top */
+}
+
+/* The alert box in the center */
+.custom-alert {
+  background-color: white; /* Nice white box */
+  color: black; /* Text color */
+  padding: 20px 40px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  text-align: center;
+  animation: fade-in 0.3s ease-in; /* Makes it pop in smoothly */
+}
+
+/* The "Return" button */
+.return-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff; /* Nice blue button */
+  color: white; /* White text */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px;
+  cursor: pointer; /* Pointer when hovering */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.return-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Fade-in animation for the alert box */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: scale(0.9); /* Slightly smaller */
+  }
+  to {
+    opacity: 1;
+    transform: scale(1); /* Normal size */
+  }
+}
+
+
+.reducOb{
+  color: #1e3555;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  margin: 0;
+  margin-right: 10px; /* Space between discount text and button */
+}
+.image-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+
+.image-modal img{
+  padding: 7px;
+}
+
+.image-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 90%;
+  height: 700px; /* Fixed height for the card */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: flex-start; /* Start at the top, so the image and instructions are aligned vertically */
+  align-items: center; /* Center the content horizontally */
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  width: 100%; /* Ensure the container takes full width of the card */
+  flex-grow: 1; /* Allow the image container to expand vertically */
+}
+
+.screenshot-image {
+  width: 350px; /* Image will take up 90% of the container's width */
+  height: 420px; /* Maintain aspect ratio */
+}
+
+.screenshot-message {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px; /* Add space below the message */
+}
+
+.instructions-list {
+  padding-left: 20px; /* Optional: Adjust the padding to create space */
+  text-align: left; /* Ensures the text is aligned to the left */
+}
+
+.instructions-list li {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 8px; /* Add space between items */
+}
+
+
+.Continuer{
+  padding: 8px;
+  width: 100%;
+  color: white;
+  background-color: #1e3555;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+  
+.back-button2 {
+  position: absolute;
+  right: 5px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+}
